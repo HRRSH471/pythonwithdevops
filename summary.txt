@@ -3,8 +3,9 @@ Variable and its rules
 Arithmatic operations
 Input/output
 Type casting and Type converstion
-str()
-float()
+- str()
+- float()
+- int()
 
 Data Types
 Number (int, float)
