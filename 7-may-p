@@ -16,24 +16,119 @@
 #     if mob==10:
 #         print("Number is valid")
 #     else:
-#         print("Number is invalid")   
+#         print("Number is invalid")
 
 
-pre=int(input("Enter your pre marks"))
-if pre>=400:
-    print("You are pass in pre and eligble for mains")
-    mains=int(input("Enter Your Mains Marks :"))
-    if mains>=600:
-        print("Your are pass in Mains and eligble for interview")
-        inter=int(input("Enter your interview marks :"))
-        if inter>=700:
-            student_name=input("Enter your name :")
-            print(f"you are slected as IAS Mr. {student_name}")
-        else:
-            student_name=input("Enter your name :")
-            print(f"You are fail in Interview Mr.{student_name}")
+# pre=int(input("Enter your pre marks"))
+# if pre>=400:
+#     print("You are pass in pre and eligble for mains")
+#     mains=int(input("Enter Your Mains Marks :"))
+#     if mains>=600:
+#         print("Your are pass in Mains and eligble for interview")
+#         inter=int(input("Enter your interview marks :"))
+#         if inter>=700:
+#             student_name=input("Enter your name :")
+#             print(f"you are slected as IAS Mr. {student_name}")
+#         else:
+#             student_name=input("Enter your name :")
+#             print(f"You are fail in Interview Mr.{student_name}")
 
-    else:
-         print("Fail in mains ")
+#     else:
+#          print("Fail in mains ")
+# else:
+#     print("Better luck nex time, your are failed .") 
+# 
+# 
+# ............"Proctice Question For If and Elif conditions"   
+# 
+# 1.Wap to check positive negative or number is zero
+# Num1= int(input("Enter the number :"))
+# if Num1>0:
+#     print("Number is Positive :")
+# elif Num1<0:
+#     print("Number is Negative :")
+# else:
+#     print("Number is zero")    
+
+# 2.Wap to check number is even or odd    
+# Num2=int(input("Enter the Number :"))
+# if Num2%2==0:
+#     print(F"Your Number is Even,{Num2}")
+# else:
+#     print("Your Number is Odd")
+
+# 3.Wap to find the greatest of Three numbers
+
+# a=int(input("Enter the first Number :"))   
+# b=int(input("Enter the Second Number :"))
+# c=int(input("Enter the third Numher :"))
+# if a>b and a>c:
+#     print(f"{a} is the Greatest Number")
+# elif b>c:
+#     print(f"{b} ios the the Gretest Number")
+# else:
+#     print(f"{c} is the the Gretest Number")  
+
+# 4.Wap to calculate the student grade
+# marks=int(input("Enter the Marks :"))
+# if marks>=90:
+#     print("Grade A ")
+# elif marks>=75:
+#     print("Grade B ")
+# elif marks>=50:
+#     print("Grade C")
+# else:
+#     print("Faill")
+
+# 5.Wap to check voting eligibility of citizens
+# age=int(input("Enter your age :"))
+# name=input("Enter your name :")
+# if age>=18:
+#     print(F"{name} You are eligible to vote")
+# else:
+#     print(F"{name} You are not eligible to Vote")    
+
+# 6.Wap to calculate two number according to selected operators.
+# num1=int(input("Enter the Number One :"))
+# num2=int(input("Enter the Number Two :"))
+# choice=input("Enter the Operation (+,-,*,/):")
+# if choice=="+":
+#     print("Result =",num1+num1)
+# elif choice=="-":
+#     print("Result =",num1-num2)
+# elif choice=="*":
+#     print("Result= ", num1*num2)
+# elif choice=="/":
+#     print("Result= ",num1/num2)           
+# else:
+#     print("Invalid Operator Selected Try Again")
+
+# 7.WAP to Check Leap Year.... //
+
+# year=int(input("Enter the Year :"))
+# if year%400==0:
+#     print(f"{year} is a Leap Year..")
+# elif year%100==0:
+#     print(f"{year} is not a Leap Year..")
+# elif year%4==0:
+#     print(f"{year}  is a Leap Year..")
+# else:
+#     print(f"{year} is not a Leap Year..")
+# 8. WAP to check Find Largest Between Two Number
+# a=int(input("Enter the First Number "))
+# b=int(input("Enter the Second Number "))
+# if a>b:
+#     print(f"{a} is Largest")
+# elif b>a:
+#     print(f"{b} is Largest")
+# else:
+#     print(f"{a} and {b} Both are equal numbers")
+
+#  WAP to check ATM withdrawal Check....///
+blance=5000
+withdraw=int(input("Enter the Withdrawal amount: "))
+if withdraw<=blance:
+    print("Withdrawal Successful")
+    print("Remaining Blance=",blance-withdraw)
 else:
-    print("Better luck nex time, your are failed .")                 
+    print("Insufficient Balance")
