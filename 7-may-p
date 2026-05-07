@@ -1,0 +1,39 @@
+# name="Dev"
+# if name=="Dev":
+#     print("Yes name is prived")
+#     address="Noida"
+#     if address:
+#        print(f"Yes address is : {address}" provide")
+#     else:
+#      print(f"Address is not provided")   
+
+# else:
+#     print("Name is not provied")
+# num1=2
+# if num1%2==0
+#     print("Even")
+#     mob=input("Enter Mobile Number: ")
+#     if mob==10:
+#         print("Number is valid")
+#     else:
+#         print("Number is invalid")   
+
+
+pre=int(input("Enter your pre marks"))
+if pre>=400:
+    print("You are pass in pre and eligble for mains")
+    mains=int(input("Enter Your Mains Marks :"))
+    if mains>=600:
+        print("Your are pass in Mains and eligble for interview")
+        inter=int(input("Enter your interview marks :"))
+        if inter>=700:
+            student_name=input("Enter your name :")
+            print(f"you are slected as IAS Mr. {student_name}")
+        else:
+            student_name=input("Enter your name :")
+            print(f"You are fail in Interview Mr.{student_name}")
+
+    else:
+         print("Fail in mains ")
+else:
+    print("Better luck nex time, your are failed .")                 

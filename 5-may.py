@@ -1,4 +1,4 @@
-#. Membership op (in , not in)
+#. Membership opr (in , not in)
 # str1="this is python for devops"
 # find="is"
 # print(find in str1)

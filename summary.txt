@@ -10,3 +10,7 @@ Type casting and Type converstion
 Data Types
 Number (int, float)
 String("",'',""" """, ''' '''')
+# conditional Statement:
+if else
+mutiple if
+if elif else
