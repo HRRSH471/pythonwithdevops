@@ -124,11 +124,13 @@
 # else:
 #     print(f"{a} and {b} Both are equal numbers")
 
-#  WAP to check ATM withdrawal Check....///
-blance=5000
-withdraw=int(input("Enter the Withdrawal amount: "))
-if withdraw<=blance:
-    print("Withdrawal Successful")
-    print("Remaining Blance=",blance-withdraw)
-else:
-    print("Insufficient Balance")
+# 9.WAP to check ATM withdrawal Check....///
+# blance=5000
+# withdraw=int(input("Enter the Withdrawal amount: "))
+# if withdraw<=blance:
+#     print("Withdrawal Successful")
+#     print("Remaining Blance=",blance-withdraw)
+# else:
+#     print("Insufficient Balance")
+
+# 10. WAP to check username and passwordg

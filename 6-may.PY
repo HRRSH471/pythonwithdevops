@@ -44,10 +44,10 @@
 # else: 
 #     num3<=num1 and num3<=num2
 #     print(f"{num3} is Smallest Numer")
-n=100
-if n>50:
- print("yest1")
-elif n>60:
-    print("Yes2")
-elif n>70:
-    print("Yes3")          
+# n=100
+# if n>50:
+#  print("yest1")
+# elif n>60:
+#     print("Yes2")
+# elif n>70:
+#     print("Yes3")          

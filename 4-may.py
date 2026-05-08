@@ -1,3 +1,12 @@
+# 1.Arithmatic
+# assignment 
+# comparision
+# logoical
+# membershio oper
+# identity oper
+# bitwise
+
+
 #logical operator
 
 n1=1
