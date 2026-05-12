@@ -1,0 +1,8 @@
+# Nested for Loop
+
+for i in range(1,6):
+   print(i, "Frist Loop")
+   for j in range(1, 6):
+        print(j, "Second Loop")
+ 
+

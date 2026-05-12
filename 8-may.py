@@ -29,15 +29,12 @@
 
 start_point = int(input("Enter the start point: "))
 end_point = int(input("Enter the end point: "))
-if end_point > start_point:
-    if end_point==start_point:
-        print("Start point and end point are the same. No numbers to check.")
-    else:    
-     for i in range(start_point, end_point + 1):
-        if i % 2 == 0 and i % 3 == 0:
+if end_point>start_point:
+ for i in range(start_point, end_point + 1):
+         if i % 2 == 0 and i % 3 == 0:
             print(i, end=" ")
 else:
-    print("Invalid input: End point should be greater than start point.")
+    print("End point should be greater than start point. Please enter valid input.")
 
   # ....2.Write a program to take a number from user input and print formated table..............
 # num = int(input("Enter a number: "))
