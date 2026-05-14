@@ -39,11 +39,11 @@
 # print("Your name in reverse format is:", reverse_name, end=" ")
 
 # WAP to sum of the indices of ta string: "python:"
-str1 = "python"
-Count_indices = 0
-for i in range(len(str1)):
-    Count_indices += i
-    print("Sum of indices:", Count_indices)
+# str1 = "python"
+# Count_indices = 0
+# for i in range(len(str1)):
+#     Count_indices += i
+#     print("Sum of indices:", Count_indices)
 
 # # Wap to print the factorial from 1 to 8
 # for num in range(1, 9):
