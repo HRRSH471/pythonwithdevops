@@ -39,7 +39,7 @@
 #     print("Better luck nex time, your are failed .") 
 # 
 # 
-# ............"Proctice Question For If and Elif conditions"   
+# ............"Practice Question For If and Elif conditions"   
 # 
 # 1.Wap to check positive negative or number is zero
 # Num1= int(input("Enter the number :"))
@@ -133,4 +133,4 @@
 # else:
 #     print("Insufficient Balance")
 
-# 10. WAP to check username and passwordg
+# 10. WAP to check username and password

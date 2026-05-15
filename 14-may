@@ -13,9 +13,39 @@
 #     print(start)
 #     start+=3
 
-start=10
-end=20
-while start<=end:
-    if start%2==0:
-        print(start)
-    start+=1
+# start=10
+# end=20
+# while start<=end:
+#     if start%2==0:
+#         print(start)
+#     start+=1
+# WAP to find the sum of even number from 1 to 15
+# num=1
+# even_sum=0
+# while num<=15:
+#     if num%2==0:
+#         even_sum+=num
+#     num+=1
+# print(even_sum)
+
+ # WAP to check the given string by user is "palindrome" ro "not a palindrome"
+# text="madam"
+# copy_text=text
+# rev=" "
+# i=len(text)-1
+# while i>=0:
+#         rev+=text[i]
+#         i-=1   
+# if copy_text==rev:
+#     print("The given string is palindrome")
+# else:
+#     print("The given string is not a palindrome") 
+
+# Wap to reverse the digit :1234 out 4321
+# num=1234
+# reverse_num=0
+# while num>0:  
+#     digit=num%10
+#     reverse_num=reverse_num*10+digit
+#     num=num//10                                 
+# print(reverse_num)

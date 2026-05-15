@@ -39,7 +39,7 @@
 # sum=0
 # while i>=0:
 #    if str1[i] in str1:
-#      sum+=i
+#      sucdm+=i
 #      i=i-1
 # print(sum)
   
@@ -50,13 +50,24 @@
 #     factorial*=num
 #     print(f"Factorial of {num} is: {factorial}")
 #     num+=1 
-# 8.Wap to print the only prime numbers from 1 t0 15
-num=1
-while num<=15:
-   i=2
-   while i<num:
-       if num%i==0:
-           break
-           i+=1
-       else:
-        print(num )
+# 8.Wap to print prime numbers from 1 t0 15
+# num=1
+# while num<=15:
+#     if num>1:
+#         for i in range(2,num):
+#             if num%i==0:
+#                 break
+#         else:
+#             print(num)
+#     num+=1          
+# 9.Wap to print the even number from 10 to 20
+# start=10
+# end=20
+# while start<=end:
+#     if start%2==0:
+#          print(start)
+#     start+=1
+# i = 2
+# while i <= 20:
+#     print(i)
+#     i += 2
