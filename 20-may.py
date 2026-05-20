@@ -78,7 +78,7 @@ def check_division(num):
         return "Yes, the number is completely divisible by 2 and 3."
     else:  
         return "No, the number is not completely divisible by 2 and 3."
-Answer=check_division(num)
+Answer=check_division(10)
 print(Answer)   
 
 # Waf to return length of the string without using len()
