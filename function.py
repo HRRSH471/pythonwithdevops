@@ -59,4 +59,11 @@
 # def sum_cube(a,b):
 #     cube=a**3+b**3
 #     return cube
-# res = sum_cube(int(input))
+# res = sum_cube(int(input("Enter the Value of a :")),int(input("Enter the Value of b :")))
+# print("The Sum of Cube is : ", res)
+# 10 .Simplify: (x - y)²
+# def simplify(x,y):
+#     solution = (x-y)**2
+#     return solution
+# res = simplify(int(input("Enter the Value of X : ")),int(input("Enter the Value of Y : ")))
+# print("This is the solution",res)
