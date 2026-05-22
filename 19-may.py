@@ -7,13 +7,13 @@
 
 
 # How define function in python.
-def add(): # (): We call it parameter at time of calling function
-    a = 10
-    b = 20
-    c = a + b
-    print(c)
+# def add(): # (): We call it parameter at time of calling function
+#     a = 10
+#     b = 20
+#     c = a + b
+#     print(c)
 # How to call function in python.
-add() # () we call it arguments at time of calling function
+# add() # () we call it arguments at time of calling function
 
 # Function define into four category.
 # 1. Take nothing return nothing.
@@ -71,14 +71,66 @@ add() # () we call it arguments at time of calling function
 # res=add(2,3)
 # print(res-5)
 
-def greet(a):
-     return a
-g=greet("Hello")
+# def greet(a):
+#      return a
+# g=greet("Hello")
 
-def user_name(b):
-    return b
-u=user_name("Rohit")
-print(g, u)
+# def user_name(b):
+#     return b
+# u=user_name("Rohit")
+# print(g, u)
+
+# Waf to check given how many vowel in a given string.
+
+
+def vowel_count(a):
+    c=0
+    for i in a:
+        if i in "aeiou":
+         c+=1
+    return c
+res=vowel_count("Programming")    
+
+# local Variable vs Global Variable  
+# name="Dev" #global variable
+# def msg():
+#     global name  #now vaiable become global inside the function
+#     name="Hariom" # Local Variable
+#     print(name)
+# msg()
+# print(name)  
+
+# Waf to count char "p" in python programing 
+
+# def count_p(a):
+#     c=0
+#     for i in a:
+#         if i == "p":
+#          c+=1
+#     return c
+# res=count_p("python programming")
+# print(res)
+
+# def vowel_count (dest,find):
+#    c=0
+#    for in in dest:
+#       if i == find:
+#          c+=1
+#     return c
+# dest="python programing"
+# find= "n"
+# res=vowel_count(dest,find)
+# print(res)
+
+#Waf to return sum of strings indexes.
+# def sum_indices(a):
+#     str1="python"
+#     sum=0
+#     for i in range (len(a)):
+#         sum+=i
+#     return sum
+# res=sum_indices("python")
+# print(res)
 
 
 
