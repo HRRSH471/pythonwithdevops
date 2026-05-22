@@ -35,4 +35,28 @@
 # res = cuboid_surface_area(int(input("Enter the lenght of cuboid : ")),int(input("Enter the breath of cuboid : ")),int(input("Enter the height of cuboid : ")))
 # print("Surface Area of Cuboid is : ",res)
 
+# 6.Square of sum: (x + y)²
+# def square_sum(x,y):
+#     squareofsum=(x+y)**2
+#     return squareofsum
+# res = square_sum(int(input("Enter the Value of  X : ")),int(input("Enter the value of Y : ")))
+# print("Square of Sum :",res)
 
+# 7.Simplify expression: x² - 4x + 4
+# def simplify(x):
+#     xpression=x**2-4*x+4
+#     return xpression
+# res = simplify(int(input("Enter the Value of X : ")))
+# print("Expresion Output : ",res)
+
+#  8.Evaluate: (a + b)(a - b)
+# def evaluate(a,b):
+#     solution=a**2-b**2
+#     return solution
+# res = evaluate(int(input("Enter the Value of a : ")),int(input("Enter the value of b :")))
+# print(res)
+# 9.Sum of cubes: a³ + b³
+# def sum_cube(a,b):
+#     cube=a**3+b**3
+#     return cube
+# res = sum_cube(int(input))
