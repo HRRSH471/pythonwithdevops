@@ -1,0 +1,7 @@
+Hi,
+
+Every one this side hariom and i have 4 years of working experiece as a devops engineer in HCL company
+i have worked with CI/CD pipelines , confirguration managment and automation throud shell script and python.
+
+i have some technologies knowledge git, github, terraform, AWS/GCP/Microsoft Azure
+

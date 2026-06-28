@@ -51,8 +51,54 @@
 #     print("Error:",e)
 
 # 1.write mode file creation
-file=open("new_demo.txt","w")
-file.write("This is file conten using file handling")
-print("file created in write mode...")
+# file=open("new_demo.txt","w")
+# file.write("This is file conten using file handling")
+# print("file created in write mode...")
 
+# import os
+# print(os.getcwd())
+# path=r"C:\Users\Hario\OneDrive\Desktop"
+# os.chdir(path)
+# print(os.getcwd())
+# file=open("data.py","w")
+# file.write(f"print('File handling')")
+# file.close()
+# print(os.listdir)
+
+# Context manager.
+
+With open("demo.txt","a") as file
+    file.write("this is new content of file")
+    file.write("this is updated content of file")
+    print("file written")
+server_list=['prod_server', 'text_server', 'dev_server']
+    for i  server_list:
+        with.open (f"{i}.txt","w") as file
+            file.write(This is content of dev server)
+
+  with open (dev_server.txt","a") as file:
+       print()
+       file.write("\n")
+       file.write("this is my content") 
+
+
+# extract all number from pragraph
+#  onlydigit.txt           
+
+count_digits=0
+total_char=0
+for i in par:
+if i in "0123456789"
+    count_digits+=1
+else:
+    total_char+1=1
+with open('stats.txt',"w") as file
+    file.write(f"Total Digits in file: {count_digits}")
+    file.write("\n")
+    file.write(f"Total chars in file :{total_char}")
+        
+
+
+
+  
 
